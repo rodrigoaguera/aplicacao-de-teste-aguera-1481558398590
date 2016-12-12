@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-aguera
+  host: aplicacao-de-teste-aguera
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-aguera-AdvancedMobileAccess
+  - aplicacao-de-teste-aguera-imfpush
+  - aplicacao-de-teste-aguera-cloudantNoSQLDB
